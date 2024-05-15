@@ -2,37 +2,37 @@
 
 ## Entidades de Domínio (entities)
 
-- [ ] **product (Produto)**: Representa os produtos disponíveis.
-- [ ] **stock (Estoque)**: Representa o estoque referente aos produtos disponíveis.
-- [ ] **sale (Histórico de Venda)**: Representa os registros referente aos documentos das vendas realizadas.
-- [ ] **purchase-order (Ordem de Compra)**: Representas as ordens de compra feitas para reabastecer o estoque dos produtos.
-- [ ] **supplier (Fornecedor)**: Representa os fornecedores dos produtos.
-- [ ] **client (Cliente)**: Representa os clientes consumidores dos produtos.
-- [ ] **movimentation (Movimentação)**: Representa a movimentação dos produtos vinculados nos registros das vendas.
+- [x] **product (Produto)**: Representa os produtos disponíveis.
+- [x] **stock (Estoque)**: Representa o estoque referente aos produtos disponíveis.
+- [x] **sale (Histórico de Venda)**: Representa os registros referente aos documentos das vendas realizadas.
+- [x] **purchase-order (Ordem de Compra)**: Representas as ordens de compra feitas para reabastecer o estoque dos produtos.
+- [x] **supplier (Fornecedor)**: Representa os fornecedores dos produtos.
+- [x] **client (Cliente)**: Representa os clientes consumidores dos produtos.
+- [x] **movimentation (Movimentação)**: Representa a movimentação dos produtos vinculados nos registros das vendas.
 
 ## Casos de Uso (use-cases)
 
-- [ ] **stock-alert (Alerta de Estoque)**: Notificações quando um produto esta com seu estoque baixo.
+- [x] **stock-alert (Alerta de Estoque)**: Notificações quando um produto esta com seu estoque baixo.
     1. [ ] Verificar níveis de estoque após cada venda.
     2. [ ] Gerar alerta se estoque abaixo do limite mínimo.
     3. [ ] Enviar alerta ao gerente por e-mail e registrar no sistema.
-- [ ] **set-minimum-stock-quantitie (Definir Quantidade Mínima)**: Estabelecer um limite mínimo de estoque para cada produto.
+- [x] **set-minimum-stock-quantitie (Definir Quantidade Mínima)**: Estabelecer um limite mínimo de estoque para cada produto.
     1. [ ] Permitir que o gerente defina o limite mínimo no sistema.
     2. [ ] Validar e aplicar o novo limite mínimo estabelecido.
     3. [ ] Gerar alertas se o estoque atingir o limite mínimo.
-- [ ] **receive-stock-alert-by-email (Receber Alerta de Estoque)**: Obter notificações por e-mail ou no sistema quando o estoque estiver baixo.
+- [x] **receive-stock-alert-by-email (Receber Alerta de Estoque)**: Obter notificações por e-mail ou no sistema quando o estoque estiver baixo.
     1. [ ] Configurar recebimento de alertas por e-mail no sistema.
     2. [ ] Enviar e-mails automáticos quando o estoque estiver baixo.
     3. [ ] Permitir consulta de alertas no sistema de gerenciamento.
-- [ ] **view-sale-history (Visualizar Histórico de Venda)**: Consultar dados de vendas e lucro por produto e período.
+- [x] **view-sale-history (Visualizar Histórico de Venda)**: Consultar dados de vendas e lucro por produto e período.
     1. [ ] Acessar interface de consulta de vendas no sistema.
     2. [ ] Filtrar dados de vendas por produto e período.
     3. [ ] Visualizar relatórios de lucro e tendências de vendas.
-- [ ] **manage-purchase-order (Gerenciar Ordem de Compra)**: Criar e processar ordens de compra automaticamente.
+- [x] **manage-purchase-order (Gerenciar Ordem de Compra)**: Criar e processar ordens de compra automaticamente.
     1. [ ] Criar ordens de compra no sistema com base no estoque mínimo.
     2. [ ] Processar e acompanhar ordens de compra automaticamente.
     3. [ ] Permitir que o gerente edite ou cancele ordens de compra.
-- [ ] **integrate-with-supplier (Integrar com Fornecedore)**: Conectar o sistema aos fornecedores para atualizações automáticas de entrega.
+- [x] **integrate-with-supplier (Integrar com Fornecedore)**: Conectar o sistema aos fornecedores para atualizações automáticas de entrega.
     1. [ ] Estabelecer conexão automática com sistemas dos fornecedores.
     2. [ ] Atualizar entregas e estoque em tempo real.
     3. [ ] Gerenciar informações de fornecedores integrados.
