@@ -36,7 +36,7 @@
     1. [ ] Estabelecer conexão automática com sistemas dos fornecedores.
     2. [ ] Atualizar entregas e estoque em tempo real.
     3. [ ] Gerenciar informações de fornecedores integrados.
-- [ ] **track-movimentation (Rastrear Movimentação)**: Acompanhar o histórico de movimentações de um produto.
+- [x] **track-movimentation (Rastrear Movimentação)**: Acompanhar o histórico de movimentações de um produto.
     1. [ ] Consultar histórico de movimentações de produtos no sistema.
     2. [ ] Registrar entradas e saídas de produtos automaticamente.
     3. [ ] Disponibilizar relatórios de movimentação para consulta.
