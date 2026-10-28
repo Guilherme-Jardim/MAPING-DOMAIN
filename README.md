@@ -1,5 +1,31 @@
 # MAPING-DOMAIN
 
+Mapeamento de domínio de um sistema de controle de estoque e vendas. Aqui listei as entidades e os casos de uso e implementei em TypeScript só o que já está pronto (entidades e a integração com fornecedor, que gera a ordem de compra). Os outros casos de uso estão como arquivos vazios, esperando implementação.
+
+## Arquitetura
+
+- `src/domain/entities`: Product, Stock, Sale, PurchaseOrder, Supplier, Client e Movimentation
+- `src/domain/use-cases`: casos de uso (por enquanto só `integrate-with-supplier` está implementado, com teste)
+
+## Como instalar
+
+```bash
+npm install
+```
+
+## Como rodar e testar
+
+Não há servidor, o projeto é validado pelos testes:
+
+```bash
+npm test
+npx tsc --noEmit
+```
+
+---
+
+# MAPING-DOMAIN
+
 ## Entidades de Domínio (entities)
 
 - [x] **product (Produto)**: Representa os produtos disponíveis.
